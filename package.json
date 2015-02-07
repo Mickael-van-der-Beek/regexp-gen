@@ -1,0 +1,25 @@
+{
+	"name": "regexp-gen",
+	"private": true,
+	"version": "0.0.1",
+	"description": "Generates data based on RegExps.",
+	"main": "src/regexp-gen.js",
+	"scripts": {
+		"test": "node_modules/mocha/bin/mocha --timeout 1000 --reporter spec test/test.js"
+	},
+	"dependencies": {
+		"regexp-tree": "git+ssh://git@github.com/Mickael-van-der-Beek/regexp-tree"
+	},
+	"devDependencies": {
+		"mocha": "~2.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mickael-van-der-Beek/regexp-gen"
+	},
+	"author": "Mickael van der Beek (https://github.com/Mickael-van-der-Beek)",
+	"bugs": {
+		"url": "https://github.com/Mickael-van-der-Beek/regexp-gen/issues"
+	},
+	"homepage": "https://github.com/Mickael-van-der-Beek/regexp-gen"
+}
