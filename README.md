@@ -1,7 +1,7 @@
 RegExp-Gen
 ===========
 
-RegExp-Gen generates data based on RegExps Mickael-van-der-Beek/regexp-tree.
+RegExp-Gen generates data based on RegExps [`RegExp-Tree`](https://github.com/Mickael-van-der-Beek/regexp-tree).
 
 The main purpose behind this library is to do two things:
 
